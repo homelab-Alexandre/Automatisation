@@ -4,7 +4,7 @@ DEFAULT_BRANCH=develop
 CURRENT_BRANCH=$(git branch --show-current)
 
 git stash -u
-git switch DEFAULT_BRANCH
+git switch "$DEFAULT_BRANCH"
 git branch "$1"
 git switch "$1"
 git switch "$CURRENT_BRANCH"
