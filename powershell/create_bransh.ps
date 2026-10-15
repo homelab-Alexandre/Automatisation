@@ -1,0 +1,11 @@
+#create_branch.ps
+
+$Default_Branch="develop"
+$Show_Current_Branch=git branch --show-current
+
+git stash -u
+git switch $Default_Branch
+git branch $args[0]
+git switch $args[0]
+git switch $Show_Current_Branch
+git stash pop
