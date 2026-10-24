@@ -10,19 +10,23 @@ Valentin ryckaert (undef)
 # Nomenclature branch git
 
 Branche stable : Main
-Branche de développement : Develop
+Branche de développement (Version stable) : Develop
 Branch de features : feat/<language_nom_de_la_feature>
 Branch de documentation : feat/docs 
 
 
 Pour créer vos branches, pensez bien à respecté la nomenclature : feat/<language_nom_de_votre_features>
 
+
+
 ex. feat/Bash_crea_newprojet
 ex. feat/c_timer
-ex. feat/ps_cration_branch
+ex. feat/PS_cration_branch
 
-ps = PowerShell
+PS = PowerShell
 
+
+ATTENTION : NE PAS MERGE TOUT DE SUITE, FAIRE UNE PULL REQUEST
 # Liste des Scripts
 
 
