@@ -1,5 +1,5 @@
 # Automatisation-Bash
-Liste de script d'automatisation de script bash (pour linux only)
+Liste de script d'automatisation de script bash (pour linux/WINDOWS only)
 
 Répartition des tâches : 
 
@@ -30,9 +30,13 @@ ATTENTION : NE PAS MERGE TOUT DE SUITE, FAIRE UNE PULL REQUEST
 # Liste des Scripts
 
 
-- [Script de création de branche](#script-de-création-de-branche)
-- [Script création de nouveau projet](#script-création-de-nouveau-projet)
-- [Script de backup](#script-de-backup)
+- [Automatisation-Bash](#automatisation-bash)
+- [Nomenclature branch git](#nomenclature-branch-git)
+- [Liste des Scripts](#liste-des-scripts)
+  - [Script de création de branche](#script-de-création-de-branche)
+  - [Script création de nouveau projet](#script-création-de-nouveau-projet)
+  - [Script de backup](#script-de-backup)
+  - [List todo](#list-todo)
 
 
 ## Script de création de branche
