@@ -1,5 +1,43 @@
 # Automatisation-Bash
-Liste de script d'automatisation de script bash (pour linux only)
+Liste de script d'automatisation de script bash (pour linux/WINDOWS only)
+
+Répartition des tâches : 
+
+Alexandre FA --> Scripts Bash (Linux)
+Tristan Roux --> Script PowerShell
+Valentin ryckaert (undef)
+
+# Nomenclature branch git
+
+Branche stable : Main
+Branche de développement (Version stable) : Develop
+Branch de features : feat/<language_nom_de_la_feature>
+Branch de documentation : feat/docs 
+
+
+Pour créer vos branches, pensez bien à respecté la nomenclature : feat/<language_nom_de_votre_features>
+
+
+
+ex. feat/Bash_crea_newprojet
+ex. feat/c_timer
+ex. feat/PS_cration_branch
+
+PS = PowerShell
+
+
+ATTENTION : NE PAS MERGE TOUT DE SUITE, FAIRE UNE PULL REQUEST
+# Liste des Scripts
+
+
+- [Automatisation-Bash](#automatisation-bash)
+- [Nomenclature branch git](#nomenclature-branch-git)
+- [Liste des Scripts](#liste-des-scripts)
+  - [Script de création de branche](#script-de-création-de-branche)
+  - [Script création de nouveau projet](#script-création-de-nouveau-projet)
+  - [Script de backup](#script-de-backup)
+  - [List todo](#list-todo)
+
 
 ## Script de création de branche
 
@@ -15,3 +53,17 @@ Idées:
 --> push automatiquement le projet sur git
 --> Possibilité de créer un Workflow (Github flow, Gitlab flow git flow ou git flow modifier)
 --> 
+
+## Script de backup 
+
+--> Paramètre 1 : lien du fichier / dossier que l'on souhaite sauvegarder
+--> Paramètre 2 : lien du dossier ou l'on doit sauvegarder
+--> possibilité de le mettre dans un cron pour automatiser les tâches de sauvegardes
+--> Permet de séléctionner un périphérique de stockage (CLI)
+
+## List todo 
+
+--> Ajouter une entré dans un fichier todo (variable pour le chemin)
+--> Afficher la liste (avec un système de notation genre 1. blabla 2. blabla etc...)
+--> Supprimer un élément de la todo liste
+--> Une todo liste = Un nom, une description et un fichier 
