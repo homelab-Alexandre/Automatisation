@@ -17,12 +17,21 @@ check_type(){
         fi
 }
 
+create_python_repo(){
+	mkdir "$CHEMIN$2"
+	cp -r ../template/Python "$CHEMIN$2"
+}
+
+create_java_repo(){
+	mkdir "$CHEMIN$2"
+	cp -r ../template/Java, "$CHEMIN$2"
+}
+
+
 creer_repo(){
 
 if [[ "$1" -eq 0 ]]; then 
-	mkdir "$CHEMIN$2"
-	touch "$CHEMIN$2/main.py"
-	echo 'print("Hello World")' > "$CHEMIN$2/main.py"
+	create_python_repo
 elif [[ "$1" -eq 1 ]]; then 
     mkdir "$CHEMIN$2"
 	touch "$CHEMIN$2/main.java"
