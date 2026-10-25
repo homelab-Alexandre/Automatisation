@@ -67,3 +67,19 @@ Idées:
 --> Afficher la liste (avec un système de notation genre 1. blabla 2. blabla etc...)
 --> Supprimer un élément de la todo liste
 --> Une todo liste = Un nom, une description et un fichier 
+
+## Mini application de gestion de laptop (raccourcis et automatisation)
+
+Détails : 
+- Globalement, une sorte d'interface global qui reprend tout les projets ci dessus avec une interface graphique pour pouvoirs les utiliser
+
+Fonctionnalités : 
+
+--> Ajout d'une section automatique pour centraliser les documents et création d'une fonctionnalité de pouvoirs ajouter des repertoires (fiche de paie, Certifications, documentation administratif etc...)
+--> Possibilité de lancement de l'application reminder
+--> Connexion au VPN
+--> Lancement de scripts (Création d'un nouveau projet github/gitlab, modification du fichier config dans le dossier ssh et modification de ce dernier)
+--> Création de clé ssh
+--> Automatisation de Backup (pré-séléction de dossier à l'avance ou choix en directe + pareil pour la destination + intégration du VPN (stockage sur le NAS))
+--> Lancement de créatino d'un nouveau projet
+--> Lancement d'un script pour voir les stats de son pc (cpu, ram, stockage max et utiliser / restant, état de la batterie etc...)
